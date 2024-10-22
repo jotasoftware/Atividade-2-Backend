@@ -1,0 +1,102 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 70vw;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btns {
+    display: flex;
+}
+
+.btns button {
+    margin: 0 5px; 
+}
+
+#btnAdd {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAdd:hover {
+    background-color: #45a049;
+}
+
+#btnApagarTudo {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnApagarTudo:hover {
+    background-color: #d32f2f;
+}
+
+ul {
+    list-style: none;
+}
+
+.ul-tarefas {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: linear 0.5s background-color;
+}
+
+li:hover {
+    background-color: #b1b1b1;
+}
+
+.ul-tarefas-feitas li {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    margin: 0;
+    padding: 2px;
+    border-radius: 5px;
+    transition: linear 0.1s background-color;
+}
+
+.close:hover {
+    background-color: red;
+}
